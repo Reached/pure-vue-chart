@@ -27,6 +27,7 @@
             :height="bar.height"
             :x="2"
             :y="bar.yOffset"
+            :style="{ fill: barColor }"
           />
           <text
             v-if="showValues"
